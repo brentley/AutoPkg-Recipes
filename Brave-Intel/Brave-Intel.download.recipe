@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Brave.</string>
 	<key>Identifier</key>
-	<string>VQ8-.download.Brave</string>
+	<string>com.github.brentley.download.Brave</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
@@ -25,7 +25,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://laptop-updates.brave.com/latest/osxarm64/release</string>
+				<string>https://laptop-updates.brave.com/latest/osx/release</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
