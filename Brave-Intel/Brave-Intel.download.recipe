@@ -7,13 +7,13 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Brave.</string>
 	<key>Identifier</key>
-	<string>com.github.brentley.download.Brave</string>
+	<string>com.github.brentley.download.Brave-Intel</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
-		<string>Brave Browser</string>
+		<string>Brave Browser - Intel</string>
 		<key>NAME</key>
-		<string>Brave</string>
+		<string>Brave-Intel</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
