@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
-		<string>Brave Browser</string>
+		<string>Brave Browser - Apple Silicon</string>
 		<key>CATEGORY</key>
 		<string>Internet</string>
 		<key>GROUP_NAME</key>
