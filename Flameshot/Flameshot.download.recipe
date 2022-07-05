@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of Flameshot.</string>
+	<key>Identifier</key>
+	<string>brentley.download.Flameshot</string>
+	<key>Input</key>
+	<dict>
+		<key>APP_FILENAME</key>
+		<string>flameshot</string>
+		<key>NAME</key>
+		<string>Flameshot</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>filename</key>
+				<string>%NAME%.dmg</string>
+				<key>url</key>
+				<string>https://objects.githubusercontent.com/github-production-release-asset-2e65be/90902132/0ebf3df9-4200-47e6-a7b2-78dda08fc14b?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220705%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220705T161621Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=44405b1d96480f1da32be6a6ff9c4aa0c6e3c1e0a755aed97249d38837f000a2&amp;X-Amz-SignedHeaders=host&amp;actor_id=243984&amp;key_id=0&amp;repo_id=90902132&amp;response-content-disposition=attachment%3B%20filename%3Dflameshot.dmg&amp;response-content-type=application%2Foctet-stream</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+	</array>
+</dict>
+</plist>
